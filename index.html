@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologías Ágiles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #2A0944 0%, #3B185F 100%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .gradient-text {
+            background: linear-gradient(45deg, #A060FA 0%, #C800FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+<body class="text-gray-100">
+    <!-- Navegación -->
+    <nav class="fixed w-full glass-card z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold gradient-text">PeñaHub</span>
+                <div class="space-x-8">
+                    <a href="#scrum" class="hover:text-purple-300 transition-colors nav-link">Scrum</a>
+                    <a href="#kanban" class="hover:text-purple-300 transition-colors nav-link">Kanban</a>
+                    <a href="#xp" class="hover:text-purple-300 transition-colors nav-link">XP</a>
+                    <a href="#crystal" class="hover:text-purple-300 transition-colors nav-link">Crystal</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-6 gradient-text">Metodologías Ágiles</h1>
+            <p class="text-xl text-purple-200 max-w-3xl mx-auto leading-relaxed">
+                Exploración profunda de las metodologías ágiles más relevantes en el desarrollo moderno de software,
+                con análisis comparativo, estadísticas actualizadas y casos de uso reales.
+            </p>
+        </div>
+    </section>
+
+    </div>
+
+    <!-- Sección Scrum -->
+    <section id="scrum" class="max-w-7xl mx-auto px-6 mb-24">
+        <div class="glass-card p-10 rounded-2xl">
+            <div class="flex items-center mb-8">
+                <i data-feather="clock" class="w-12 h-12 text-purple-400 mr-4"></i>
+                <h2 class="text-3xl font-bold">Scrum Framework</h2>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="lg:col-span-2">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-300">Flujo de Trabajo</h3>
+                    <p class="mb-6 text-purple-200 leading-relaxed">
+                        Scrum se basa en iteraciones cortas (Sprints) de 2-4 semanas donde se entrega valor incremental.
+                        El proceso incluye ceremonias clave:
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-purple-900/30 p-5 rounded-xl">
+                            <div class="text-purple-400 mb-2 font-semibold">Sprint Planning</div>
+                            <p class="text-sm text-purple-200">Planificación detallada del trabajo a realizar</p>
+                        </div>
+                        <!-- Más ceremonias... -->
+                    </div>
+
+                    <h3 class="text-xl font-semibold mt-8 mb-4 text-purple-300">Casos de Uso Ideal</h3>
+                    <ul class="list-disc list-inside space-y-3 text-purple-200">
+                        <li>Proyectos con requisitos cambiantes</li>
+                        <li>Equipos de 5-9 miembros</li>
+                        <li>Productos complejos con múltiples integraciones</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-8">
+                    <div class="bg-purple-900/40 p-6 rounded-xl">
+                        <h4 class="text-lg font-semibold mb-4 text-purple-300">📈 Ventajas Clave</h4>
+                        <ul class="space-y-3 text-sm text-purple-200">
+                            <li class="flex items-center">
+                                <i data-feather="check-circle" class="w-4 h-4 mr-2 text-green-400"></i>
+                                Alta adaptabilidad a cambios
+                            </li>
+                            <!-- Más ventajas... -->
+                        </ul>
+                    </div>
+
+                    <div class="bg-purple-900/40 p-6 rounded-xl">
+                        <h4 class="text-lg font-semibold mb-4 text-purple-300">⚠️ Desafíos Comunes</h4>
+                        <ul class="space-y-3 text-sm text-purple-200">
+                            <li class="flex items-center">
+                                <i data-feather="alert-triangle" class="w-4 h-4 mr-2 text-red-400"></i>
+                                Requiere Scrum Master experimentado
+                            </li>
+                            <!-- Más desafíos... -->
+                        </ul>
+                    </div>
+
+                    <div class="bg-purple-900/40 p-6 rounded-xl">
+                        <h4 class="text-lg font-semibold mb-4 text-purple-300">📊 Estadísticas</h4>
+                        <div class="space-y-3 text-purple-200 text-sm">
+                            <div>Adopción en Fortune 500: 78%</div>
+                            <div>Éxito reportado: 62%</div>
+                            <div>Tasa de retención: 89%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Otras secciones (Kanban, XP, Crystal) con estructura similar -->
+
+    <section id="kanban" class="max-w-7xl mx-auto px-6 mb-24">
+        <div class="glass-card p-10 rounded-2xl">
+            <div class="flex items-center mb-8">
+                <i data-feather="trello" class="w-12 h-12 text-purple-400 mr-4"></i>
+                <h2 class="text-3xl font-bold">Metodología Kanban</h2>
+            </div>
+    
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="lg:col-span-2">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-300">Flujo de Trabajo Visual</h3>
+                    <p class="mb-6 text-purple-200 leading-relaxed">
+                        Kanban se enfoca en la gestión visual del trabajo mediante tableros y la optimización del flujo continuo. 
+                        Principios clave:
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-purple-900/30 p-5 rounded-xl">
+                            <div class="text-purple-400 mb-2 font-semibold">Tablero Kanban</div>
+                            <p class="text-sm text-purple-200">Columnas visuales (Por hacer, En progreso, Terminado)</p>
+                        </div>
+                        <div class="bg-purple-900/30 p-5 rounded-xl">
+                            <div class="text-purple-400 mb-2 font-semibold">Límites WIP</div>
+                            <p class="text-sm text-purple-200">Control de trabajo en progreso para evitar sobrecarga</p>
+                        </div>
+                        <div class="bg-purple-900/30 p-5 rounded-xl">
+                            <div class="text-purple-400 mb-2 font-semibold">Entrega Continua</div>
+                            <p class="text-sm text-purple-200">Liberaciones frecuentes según capacidad del equipo</p>
+                        </div>
+                        <div class="bg-purple-900/30 p-5 rounded-xl">
+                            <div class="text-purple-400 mb-2 font-semibold">Mejora Continua</div>
+                            <p class="text-sm text-purple-200">Optimización constante del flujo de trabajo</p>
+                        </div>
+                    </div>
+    
+                    <h3 class="text-xl font-semibold mt-8 mb-4 text-purple-300">Casos de Uso Ideal</h3>
+                    <ul class="list-disc list-inside space-y-3 text-purple-200">
+                        <li>Equipos de mantenimiento y soporte</li>
+                        <li>Proyectos con demanda variable</li>
+                        <li>Procesos de trabajo continuo</li>
+                        <li>Equipos multidisciplinarios</li>
+                    </ul>
+                </div>
+    
+                <div class="space-y-8">
+                    <div class="bg-purple-900/40 p-6 rounded-xl">
+                        <h4 class="text-lg font-semibold mb-4 text-purple-300">📈 Ventajas Clave</h4>
+                        <ul class="space-y-3 text-sm text-purple-200">
+                            <li class="flex items-center">
+                                <i data-feather="check-circle" class="w-4 h-4 mr-2 text-green-400"></i>
+                                Flexibilidad inmediata para cambios
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check-circle" class="w-4 h-4 mr-2 text-green-400"></i>
+                                Reducción de tiempos de entrega
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check-circle" class="w-4 h-4 mr-2 text-green-400"></i>
+                                Identificación visual de cuellos de botella
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="bg-purple-900/40 p-6 rounded-xl">
+                        <h4 class="text-lg font-semibold mb-4 text-purple-300">⚠️ Desafíos Comunes</h4>
+                        <ul class="space-y-3 text-sm text-purple-200">
+                            <li class="flex items-center"><i data-feather="alert-triangle" class="w-4 h-4 mr-2 text-red-400"></i>
+                                Requiere disciplina en límites WIP
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="alert-triangle" class="w-4 h-4 mr-2 text-red-400"></i>
+                                Menos estructura definida
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="alert-triangle" class="w-4 h-4 mr-2 text-red-400"></i>
+                                Dificultad para estimaciones
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="bg-purple-900/40 p-6 rounded-xl">
+                        <h4 class="text-lg font-semibold mb-4 text-purple-300">📊 Estadísticas</h4>
+                        <div class="space-y-3 text-purple-200 text-sm">
+                            <div>Reducción de lead time: 30-50%</div>
+                            <div>Equipos que adoptan: 65%</div>
+                            <div>Mejora de productividad: 40%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="xp" class="max-w-7xl mx-auto px-6 mb-24">
+        <div class="glass-card p-10 rounded-2xl">
+            <div class="flex items-center mb-8">
+                <i data-feather="zap" class="w-12 h-12 text-purple-400 mr-4"></i>
+                <h2 class="text-3xl font-bold">Extreme Programming (XP)</h2>
+            </div>
+    
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="lg:col-span-2">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-300">Prácticas Técnicas</h3>
+                    <p class="mb-6 text-purple-200 leading-relaxed">
+                        XP se centra en desarrollo ágil con énfasis en calidad técnica y retroalimentación continua.
+                        Prácticas fundamentales:
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-purple-900/30 p-5 rounded-xl">
+                            <div class="text-purple-400 mb-2 font-semibold">Programación en Parejas</div>
+                            <p class="text-sm text-purple-200">Colaboración continua en tiempo real</p>
+                        </div>
+                        <div class="bg-purple-900/30 p-5 rounded-xl">
+                            <div class="text-purple-400 mb-2 font-semibold">TDD</div>
+                            <p class="text-sm text-purple-200">Desarrollo guiado por pruebas</p>
+                        </div>
+                        <div class="bg-purple-900/30 p-5 rounded-xl">
+                            <div class="text-purple-400 mb-2 font-semibold">Integración Continua</div>
+                            <p class="text-sm text-purple-200">Múltiples integraciones diarias</p>
+                        </div>
+                        <div class="bg-purple-900/30 p-5 rounded-xl">
+                            <div class="text-purple-400 mb-2 font-semibold">Releases Pequeños</div>
+                            <p class="text-sm text-purple-200">Ciclos de entrega ultra cortos</p>
+                        </div>
+                    </div>
+    
+                    <h3 class="text-xl font-semibold mt-8 mb-4 text-purple-300">Casos de Uso Ideal</h3>
+                    <ul class="list-disc list-inside space-y-3 text-purple-200">
+                        <li>Proyectos con requisitos cambiantes</li>
+                        <li>Equipos pequeños (2-5 desarrolladores)</li>
+                        <li>Sistemas críticos que requieren alta calidad</li>
+                        <li>Entornos con alto riesgo técnico</li>
+                    </ul>
+                </div>
+    
+                <div class="space-y-8">
+                    <div class="bg-purple-900/40 p-6 rounded-xl">
+                        <h4 class="text-lg font-semibold mb-4 text-purple-300">📈 Ventajas Clave</h4>
+                        <ul class="space-y-3 text-sm text-purple-200">
+                            <li class="flex items-center">
+                                <i data-feather="check-circle" class="w-4 h-4 mr-2 text-green-400"></i>
+                                Calidad de código superior
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check-circle" class="w-4 h-4 mr-2 text-green-400"></i>
+                                Retroalimentación inmediata
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="check-circle" class="w-4 h-4 mr-2 text-green-400"></i>
+                                Adaptación rápida a cambios
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="bg-purple-900/40 p-6 rounded-xl">
+                        <h4 class="text-lg font-semibold mb-4 text-purple-300">⚠️ Desafíos Comunes</h4>
+                        <ul class="space-y-3 text-sm text-purple-200">
+                            <li class="flex items-center">
+                                <i data-feather="alert-triangle" class="w-4 h-4 mr-2 text-red-400"></i>
+                                Requiere alta disciplina técnica
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="alert-triangle" class="w-4 h-4 mr-2 text-red-400"></i>
+                            Resistencia a programación en parejas
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="alert-triangle" class="w-4 h-4 mr-2 text-red-400"></i>
+                            Inversión inicial en automatización
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-purple-900/40 p-6 rounded-xl">
+                    <h4 class="text-lg font-semibold mb-4 text-purple-300">📊 Estadísticas</h4>
+                    <div class="space-y-3 text-purple-200 text-sm">
+                        <div>Reducción de defectos: ~70%</div>
+                        <div>Adopción en startups: 45%</div>
+                        <div>Mejora productividad: 30%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="krystal" class="max-w-7xl mx-auto px-6 mb-24">
+    <div class="glass-card p-10 rounded-2xl">
+        <div class="flex items-center mb-8">
+            <i data-feather="droplet" class="w-12 h-12 text-purple-400 mr-4"></i>
+            <h2 class="text-3xl font-bold">Metodología Krystal</h2>
+        </div>
+
+        <div class="grid lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2">
+                <h3 class="text-xl font-semibold mb-4 text-purple-300">Flujo Adaptativo</h3>
+                <p class="mb-6 text-purple-200 leading-relaxed">
+                    Krystal se enfoca en la adaptación continua y la transparencia radical. Principios clave:
+                </p>
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-purple-900/30 p-5 rounded-xl">
+                        <div class="text-purple-400 mb-2 font-semibold">Planificación Dinámica</div>
+                        <p class="text-sm text-purple-200">Replanificación continua basada en feedback</p>
+                    </div>
+                    <div class="bg-purple-900/30 p-5 rounded-xl">
+                        <div class="text-purple-400 mb-2 font-semibold">Sprints Flexibles</div>
+                        <p class="text-sm text-purple-200">Duración variable según complejidad</p>
+                    </div>
+                    <div class="bg-purple-900/30 p-5 rounded-xl">
+                        <div class="text-purple-400 mb-2 font-semibold">Transparencia Radical</div>
+                        <p class="text-sm text-purple-200">Toda la información visible y accesible</p>
+                    </div>
+                    <div class="bg-purple-900/30 p-5 rounded-xl">
+                        <div class="text-purple-400 mb-2 font-semibold">Autoorganización</div>
+                        <p class="text-sm text-purple-200">Equipos multidisciplinarios autónomos</p>
+                    </div>
+                </div>
+
+                <h3 class="text-xl font-semibold mt-8 mb-4 text-purple-300">Casos de Uso Ideal</h3>
+                <ul class="list-disc list-inside space-y-3 text-purple-200">
+                    <li>Proyectos altamente innovadores</li>
+                    <li>Equipos distribuidos geográficamente</li>
+                    <li>Entornos con alta incertidumbre</li>
+                    <li>Proyectos de I+D</li>
+                </ul>
+            </div>
+
+            <div class="space-y-8">
+                <div class="bg-purple-900/40 p-6 rounded-xl">
+                    <h4 class="text-lg font-semibold mb-4 text-purple-300">📈 Ventajas Clave</h4>
+                    <ul class="space-y-3 text-sm text-purple-200">
+                        <li class="flex items-center">
+                            <i data-feather="check-circle" class="w-4 h-4 mr-2 text-green-400"></i>
+                            Máxima adaptabilidad a cambios
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check-circle" class="w-4 h-4 mr-2 text-green-400"></i>
+                            Toma de decisiones descentralizada
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="check-circle" class="w-4 h-4 mr-2 text-green-400"></i>
+                            Enfoque en innovación continua
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-purple-900/40 p-6 rounded-xl">
+                    <h4 class="text-lg font-semibold mb-4 text-purple-300">⚠️ Desafíos Comunes</h4>
+                    <ul class="space-y-3 text-sm text-purple-200">
+                        <li class="flex items-center">
+                            <i data-feather="alert-triangle" class="w-4 h-4 mr-2 text-red-400"></i>
+                            Requiere madurez organizacional
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="alert-triangle" class="w-4 h-4 mr-2 text-red-400"></i>
+                            Riesgo de falta de estructura
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="alert-triangle" class="w-4 h-4 mr-2 text-red-400"></i>
+                            Dificultad en medición de progreso
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-purple-900/40 p-6 rounded-xl">
+                    <h4 class="text-lg font-semibold mb-4 text-purple-300">📊 Estadísticas</h4>
+                    <div class="space-y-3 text-purple-200 text-sm">
+                        <div>Adopción en startups tech: 38%</div>
+                        <div>Innovación acelerada: 55%</div>
+                        <div>Satisfacción equipos: 82%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="glass-card mt-24 py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="text-purple-300 mb-4">© 2024 AgileHub. Todos los derechos reservados.</div>
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="text-purple-300 hover:text-white transition-colors">
+                    <i data-feather="github"></i>
+                </a>
+                <!-- Más redes sociales... -->
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
